@@ -94,7 +94,11 @@ SetTimer(CheckFullscreen, 100)
 LWin:: {
     if isFullscreen
         return
-    Send "{LWin}"
+    Send "{LWin Down}"
+}
+
+LWin Up:: {
+    Send "{LWin Up}"
 }
 
 ; ------------------------------------------------------------------------
